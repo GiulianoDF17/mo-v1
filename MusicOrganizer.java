@@ -27,6 +27,11 @@ public class MusicOrganizer
         }
     }
     
+    public boolean validIndex(int index)
+    {
+        return index >= 0 && index < files.size();
+    }
+    
     /**
      * Add a file to the collection.
      * @param filename The file to be added.

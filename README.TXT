@@ -30,6 +30,6 @@ Questions:
 11. organizer.addFile(favoriteTrack);
 12. dates.remove(2)
 13. 4
-14.
-15.
+14. If the index is valid nothing will print, but if its invalid, it will print out the error message.
+15.  
 16.
