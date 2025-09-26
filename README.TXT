@@ -25,5 +25,11 @@ Questions:
    cs101 = new ArrayList<>();
    tracks = new ArrayList<>();
 8. 9
-9.
+9. 
 10. 14
+11. organizer.addFile(favoriteTrack);
+12. dates.remove(2)
+13. 4
+14.
+15.
+16.

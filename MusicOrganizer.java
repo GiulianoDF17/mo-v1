@@ -19,6 +19,14 @@ public class MusicOrganizer
         files = new ArrayList<>();
     }
     
+    public void checkIndex(int index)
+    {
+        int size = files.size();
+        if (index < 0 || index >= size){
+            System.out.println("Error: Index " + index + " is out of bounds, the valid range is 0 to " + (size-1) + " ." );
+        }
+    }
+    
     /**
      * Add a file to the collection.
      * @param filename The file to be added.
